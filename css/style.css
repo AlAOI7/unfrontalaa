@@ -1,0 +1,600 @@
+body{
+    padding-top:70px;
+ 
+}
+
+/*  star secyion tooal box */
+
+.option-box{
+position:fixed;
+top:150px;
+left:0;
+/*لجعل  هاذه العنصر فوق كل الطبقات */
+z-index:9999;
+
+}
+.option-box .color-option{
+float:left;
+background:#133;
+color:#fff;
+padding:10px;
+width:200px;
+border:4px solid #103;
+/*لاخفا البوكس الذي يحتوي على الالوان */
+display:none;
+}
+
+.option-box .color-option ul li{
+width:20px;
+height:20px;
+display:inline-block;
+margin-right:4px;
+
+}
+.option-box .fa-check{
+padding:5px;
+background:#103;
+color:#fff;
+cursor: pointer;
+}
+/*end section tooal box */
+
+
+.nav{
+    color:#fff;
+}
+
+/* start nav  */ 
+.navbar{
+
+    min-height:70px;
+    font-weight: bold;
+    font-size:16px;
+    margin-top:0px; 
+
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.navbar-inverse .navbar-naV >li >a{
+    color:#fff;
+padding-top:25px;
+padding-bottom:25px;
+}
+.navbar-inverse .navbar-brand{
+    color:#fff;
+    font-size:30px;
+    line-height:40px;
+}
+.navbar-inverse .navbar-brand span{
+    color:#ff0;
+}
+
+/* start dropdown */
+.dropdown-menu{
+    background-color:#000;
+    border-top:3px solid #ff0;
+}
+.navbar-right .dropdown-menu{
+    left:0;
+    right:auto;
+}
+
+.dropdown-menu >li >a{
+    color:#ff0;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+transition:padding 0.5s ease;
+}
+
+.dropdown-menu  >  li > a:hover,
+.dropdown-menu  >  li > a:focus
+{
+    background-color:rgb(8, 255, 234);
+    padding-left:25px;
+}
+
+.dropdown-menu .divider{
+    background-color:#ff0;
+}
+/* end dropdown */
+
+.navbar-form{   
+    padding-top: 15px;
+
+}
+/* end nav */
+
+
+       /*   start carousel */
+    
+            .carousel-caption {
+
+                bottom :100px;
+                background:rgba(3,3,3,0.4);
+                padding-right:20px;
+                padding-left: 20px;
+                padding-bottom: 20px;
+                margin-bottom:100px;
+          
+            
+            }
+            .carousel-indicators{
+                bottom: 0
+            }
+            .carousel-indicators li{
+
+                height:20px;
+                width:20px;  
+                background:#eee;
+                border:2px solid #ff0
+            }
+            .carousel-indicators .active{
+               
+                height:22px;
+                width:22px;
+                background:#103;
+            
+            }
+            .carousel-inner .item .im{
+               width:100%;
+               height:40%;
+            }
+
+
+  /*   end carousel */
+
+          
+
+            /*  start section about */
+
+        .about{
+            padding-top:60px;
+            padding-bottom: 60px;
+        }
+        .about .lead{
+            color:#103;
+            font-size:24px;
+            margin-top:15px;
+        }
+        .about h1
+        {
+            font-weight:bold;
+        }
+
+
+/*  end section about */
+
+/*     نيابة شؤون الطلاب */
+
+.neapmanagment{
+text-align: center;
+font-weight: bold;
+}
+
+
+
+/*   end  التوضيح لنيابة */
+
+
+/*start     section features   */
+        .features{
+            background:rgb(255, 255, 255);
+            -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    width:100%;
+            padding-top:50px;
+            padding-bottom:50px;
+            color:rgb(7, 0, 0);
+        }
+        .features  .feat {
+            margin-bottom:30px;
+        }
+ /*.features .feat p{
+    line-height:2em;
+}*/
+            .features h1 {
+                margin-bottom:70px;
+            }
+            .features .feat span.glyphicon {
+                font-size:25px;
+                margin-bottom:10px;
+                color:#103;
+            }
+/*   end     section features   */
+
+/*    start     section testimonials   */
+            .testimonials{
+                padding-top:50px;
+                padding-bottom:50px;
+            }
+            .testimonials h1{
+                font-weight: boald;
+                margin-bottom:20px;
+            }
+            .testimonials .lead{
+                line-height:2em;
+                margin-bottom: 10px;
+            }
+            .testimonials span{
+                font-size:19px;
+                font-weight: bold;
+                color:#103;
+            }
+            .testimonials .carousel-inner {
+                min-height:160px;   
+            }
+            .testimonials .carousel-indicators{
+                position: static;
+                width:100%;
+                margin-left:auto;
+                padding-top:20px;
+                
+            }
+            .testimonials .carousel-indicators li{
+                text-indent:0;
+                width:100px;
+                height:100px;
+                opacity: 0.5;
+                border:3px solid #000;
+                border-radius:50%;
+                overflow:hidden;
+                margin:5px;
+                -webkit-transition:all 0.5s ease;
+                -moz-transition:all 0.5s ease;
+                -o-transition:all 0.5s ease;
+                 transition:all 0.5s ease;
+            }
+            .testimonials .carousel-indicators li.active{
+                width:100px;
+                height:100px;
+                opacity:1;
+                background:none;
+                border:3px solid rgb(231, 255, 14);
+            }
+            .testimonials .carousel-indicators li img{
+                max-width:100%;
+            }
+
+/*   end     section testimonials   */
+
+
+    /*   start     section our team      */
+        
+.our-team {
+    background:url('../img/vbgg.jpg') no-repeat center center fixed;
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    min-height:400px;
+    width:100%;
+
+}
+.our-team .team{
+    background:rgba(70, 63, 63, 0.5);
+    color:#fff;
+    min-height:600px;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+.our-team h1{
+    margin-bottom:60px;
+}
+.our-team .person{
+    margin-bottom:40px;
+}
+.our-team .person img{
+max-width: 70%;
+   
+}
+
+
+    /*   end     section our team      */
+
+
+    /* start section subscribe*/
+.subscribe{
+    padding-top:40px;
+    padding-bottom:70px;
+    background:#eee
+}
+.subscribe h1{
+    color:#103;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+.subscribe p{
+    margin-bottom:30px;
+
+}
+.subscribe  .form-control {
+    width:300px;
+    border-radius:0;
+    margin-right:-5px;
+}
+.subscribe  button{
+    border-radius:0;
+
+}
+    /* end section subscribe*/
+
+
+    /* start section statistics */
+.statistics {
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    min-height:300px;
+    width:100%;
+
+}
+.statistics .data{
+     background-color:rgb(180, 195, 226);
+     color:#FFF;
+     min-height:400px;
+     padding-top:40px;
+     padding-bottom:70px;
+}
+
+.statistics  h1{
+    margin-bottom:60px;
+}
+.statistics .stats{
+-webkit-transition: all 0.5 ease-in-out;
+-moz-transition: all 0.5 ease-in-out;
+-o-transition: all 0.5 ease-in-out;
+transition: all 0.5 ease-in-out;
+margin-bottom:50px;
+
+}
+.statistics .stats:hover{
+    color:#103;
+}
+
+.statistics p{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:0;
+
+}
+.statistics span{
+    font-size:20px;
+}
+
+
+
+    /* end section statistics */
+
+
+
+
+
+        /* start section Countact us  */
+        .Contact-us{
+            background:url('../img/vbg.jpg') no-repeat center  center fixed;
+            /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;
+            min-height:300px;
+        }
+        .Contact-us .filds{
+            background:rgba(9,9,9,0.8);
+            min-height:300px;
+            color:#ddd;
+            padding-top:40px;
+            padding-bottom:40px;
+            
+        }
+        .Contact-us p{
+            margin-bottom:40px;
+        }
+        .Contact-us textarea{
+            height: 108px;
+            width:450px;
+            margin-left: 18px;
+        }
+        .Contact-us .btn-block  {
+            width: 38%;
+        }
+        .Contact-us input[type="text"],
+        .Contact-us textarea
+        {
+            background:rgba(82,78,78,0.7);
+            color:#fff;
+            border:none
+        }
+        
+                /* end section Countact us  */ 
+        
+        
+          */ 
+
+
+
+
+         /* start sec tion footer */
+
+.footer{
+     background:rgb(181, 173, 197);
+     color:#000;
+     padding-top:10px;
+   
+}
+.footer a{
+    color:rgb(0, 38, 255);
+
+}
+.footer a:hover{
+    color:rgb(255, 0, 0);
+    
+}
+.footer h3{
+    color:#000000;
+    letter-spacing: 1px;
+    margin:30px 0 20px;
+}
+.footer .three-columns{
+    overflow:hidden;
+}
+.footer .three-columns li{
+    width:33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+.footer .social-list{
+    overflow: hidden;
+    margin:20px 0 10px;color:rgb(0, 68, 255);
+}
+.footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    margin:6px;
+    opacity: 0.7;
+    filter:aloha(opacity=70);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .social-list li:hover{
+    opacity: 1;
+    color:#ff0;
+}
+
+
+.footer .img-thumbnail{
+background:rgba(0,0,0,0.3);
+border: 1px solid #444;
+margin-bottom: 5px;
+}
+
+.footer .copyright{
+    background:#333;
+    color:#AAA;
+    padding:15px 0;
+    margin-top:30px;
+    font-size:15px;
+}
+.footer .copyright span{
+    color:#0895d1;
+}
+
+
+         /* ent section  footer */
+
+         .img-thumbnail{
+             width:80px;
+             height: 90px;
+         }
+
+         
+
+/*start section loading*/
+
+.loading-overlay{
+background:rgb(255, 255, 255);
+color:rgb(230, 0, 0);
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+z-index:99999;
+
+}
+
+/*تنسيقات من الانتر نت لعمل لوادينج*/
+
+.sk-cube-grid {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+
+
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #f00;
+
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+/*end section loading*/
+
+
+
+
+
+
+
+
+
+

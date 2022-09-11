@@ -1,0 +1,141 @@
+<?php
+include '../conectdb/concte.php';
+session_start();
+
+?>
+
+
+
+<!DOCTYPE html>
+<html leng="en">
+
+<head>
+    <title>دخول المشرف </title>
+    <meta charset="UTF-8">
+    <link href="img/un1.jpg" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/logdo.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <!--start nnavbar-->
+
+    <nav class="navbar navbar-inverse navbar-default  navbar-fixed-top  " role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- container  يمسك المحتوى بتاعي يخلي داخل1170بكسل الخاص بل بوتستراب   اذا لم نكتب هاذه الكلاس  المحتوى سوف يملى الصفحه بتاعي-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">نيابة شؤون الطلاب<span>'جامعة تعز</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="../managmdocu.html">ادارةالوثائق</a></li>
+                    <li><a href="../stdserver.html">الخدمات الطلابية</a></li>
+                    <li><a href="../managmentdatacertifect/datamanag.html">شهادتي</a></li>
+                    <li><a href="../student_services_request/indecsearch.html">خدمتي</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">الادارة<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="admin/logindocument.html">ادارة الوثائق</a></li>
+                            <li><a href="admin/loginserch.html">ادارة الباحثين</a></li>
+                            <li><a href="stdy.php #se">جامعة تعز</a></li>
+                            <li class="divider"></li>
+
+                            <li><a href="#loginlog"> للتواصل مع الفريق </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-left " role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="بحث">
+                    </div>
+                    <button type="submit" class="btn btn-default">بحث</button>
+                </div>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+    <!--end navbar -->
+    <div class="loginbox">
+
+        <img src="img/l1.jpg" class="avater">
+        <h1> ادارة الوثائق تسجيل
+            <br>
+            دخول الموظف
+        </h1>
+        <form action="" method="post">
+            <!-- 
+                <p class="forer"></p>
+                </select> -->
+            <center>
+                <p>اسم المستخدم </p>
+                <input type="username" name="username" placeholder="أدخل اسم المستخدم">
+                <p>كلمة السر</p>
+                <input type="password" name="passs" placeholder="ادخل كلمة السر">
+                <input type="submit" name="login" value="تسجيل الدخول ">
+
+            </center>
+        </form>
+
+        <?php
+        if (isset($_POST['login'])) {
+            $uname = $con->real_escape_string($_POST['username']);
+            $pass = $con->real_escape_string($_POST['passs']);
+            $query = "SELECT * FROM adminducument WHERE username = '$uname' AND passs = '$pass'";
+            $rs = $con->query($query);
+            $num = $rs->num_rows;
+            $rows = $rs->fetch_assoc();
+            if ($num > 0) {
+                session_start();
+                $_SESSION['username'] = $rows['username'];
+                $_SESSION['passs'] = $rows['passs'];
+                echo "<script type = \"text/javascript\">
+         
+            window.location = (\"admin_document/indexduc.php\")
+            </script>";
+            } else {
+                echo "<script type = \"text/javascript\">
+           
+            window.location = (\"logindocument.php\")
+            </script>";
+            }
+        }
+        ?>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+
+body{
+background-color:rgb(255, 255, 255);
+text-align: center;
+}
+.titl{
+    background-color:rgb(9, 9, 54);
+     padding: 10px;
+     color:#00d8c6;
+     font-size:20px;
+     margin-top:20px;
+     border:20px solid rgb(0, 0, 0);
+     text-align:center;
+     -webkit-border-radius:20px 20px 200px 200px ;
+     border-radius:20px 20px 200px 200px
+}
+.format{
+  width:400px;
+  height: 500px;
+  background:#103;
+  color:#000;
+  border:2px solid #f00;
+
+}
+.format input{
+  margin:7px;
+  width:350px;
+  height: 40px;
+  font-weight:bold;
+}
+
+  /*   Examples transition  */
+/*
+  .examples{
+    padding:10px;
+    line-height:130px;
+    margin:20px auto;
+    text-align:center;
+    
+    color:#f00;
+    transition:all 1.5s ease-in-out;
+    
+    }
+    .examples:hover {
+      color:#f00;
+      transform:scale(1.4);
+      -webkit-transform:rotate(-360deg) ;
+      border-radius:70px 10px 0px 10px;
+      transform:rotate(-360deg) ;
+      box-shadow:inset  0 0 0 20px;
+      
+      
+      }
+     */
+
+/*   خاص بعرض بيانات الشخص الجديد*/
+  
+
+.titl .sec{
+ 
+    overflow: hidden;
+
+}
+
+.titl .user{
+    float: right;
+   
+  width: 40%;
+  height:80px;
+   color:#ff0;
+   border:2px solid rgb(50, 27, 75);
+   -webkit-border-radius:200px 200px 200px 200px ;
+   border-radius:200px 200px 200px 200px
+  
+}
+
+.titl .sec .user .imgg{
+  float:left;
+  width: 15%;
+  height:80px;
+  border: 3px solid #ff0;
+  border-radius: 50%;
+  overflow:hidden;
+  margin: 0;
+   -webkit-border-radius:10px 10px 100px 100p ;
+          border-radius:10px 10px 100px 100p
+}
+.titl .sec .user img{
+ max-width:100%;
+}
+
+
+.titl .d4{
+  font-family:arial, tahoma;
+  font-weight:bold;
+  text-align:center;
+  
+
+  text-align: center;
+  line-height:80px;
+  margin:0;
+width: 100%;
+height:80px;
+
+}
+                
+
+
+  /* تنسيق لنص ما بعد العنوان  */
+.texttitle{
+ font-weight: bold;
+     width:100%;
+    padding: 10px;
+    text-align: center;
+    background: #21152e;
+    color: rgb(255, 0, 0);
+    border: 6px solid rgb(49, 10, 61);
+    outline: 9px solid rgb(31, 49, 8);
+    -webkit-border-radius:20px 20px 200px 200px ;
+    border-radius:20px 20px 200px 200px
+
+}
+/* هاذه الكلاس خاص بتنسيق الاطار العام للبيانات المراد ادخالها  */
+.ok{
+      width:220;
+      height:50;
+    background: #6b0079;
+    color: rgba(255, 251, 6, 0.911);
+    -webkit-border-radius:200px 200px 200px 200px ;
+     border-radius:200px 200px 200px 200px
+}
+.okk{
+    width:220;
+    height:50;
+  background: #3d1742;
+  color: rgba(255, 251, 6, 0.911);
+  -webkit-border-radius:200px 200px 200px 200px ;
+   border-radius:200px 200px 200px 200px
+}
+.fields{
+   
+    color:rgb(255, 0, 0);
+    -webkit-border-radius:200px 200px 200px 200px ;
+     border-radius:200px 200px 200px 200px
+}
+
+
+.enterphoto{
+
+}
+
+
+
+/* الكلاس المخفي الذي سوف تتم عملية اضافة البيانات اليه*/
+.show{
+width:200px;
+height:40px;
+padding:20px;
+     color:#f00;
+     margin:15px;
+border:3px solid rgb(5, 4, 4)
+}
+
+
+/*
+  كلاس الفورم الذي سوف يقوم  بتنسيق في جميع حقول الادخال 
+*/
+
+hr{
+    background-color:rgb(4, 104, 255);
+       text-align:center;
+       padding:1px;
+       border:1px solid rgba(57, 41, 66, 0.993)
+
+    }
+    .end{
+        width:1200px;
+        background-color:#3f2c4e;
+    color:rgb(2, 247, 255);
+    text-align:center;
+    -webkit-border-radius:200px 200px 200px 200px ;
+    border-radius:200px 200px 200px 200px
+    }
+footer{
+    background-color:#260130;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:8px;
+    -webkit-border-radius:200px 200px 200px 200px ;
+    border-radius:200px 200px 200px 200px
+    }

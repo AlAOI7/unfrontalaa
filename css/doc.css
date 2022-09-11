@@ -1,0 +1,183 @@
+
+    /*   start     section our team      */
+        
+.our-team {
+    background:url('../img/stdy/sttd.jpg') no-repeat center center fixed;
+    /*   لضبط الصور على السيكشن بشكل طبيعي    من الافضل ان نجيب صوره حجمها عالي*/ 
+    -webkit-background-size:covber;
+    -moz-background-size:covber;
+    -o-background-size:covber;
+    background-size:covber;
+    width:100%;
+    min-height:300px;
+}
+.our-team .team{
+    background:rgba(2,2,2,0.5);
+    color:#fff;
+    min-height:500px;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+.our-team h1{
+    margin-bottom:60px;
+}
+.our-team .person{
+    margin-bottom:40px;
+}
+.our-team .person img{
+max-width: 80%;
+   
+}
+    /*   end     section our team      */
+    .person {
+        font-weight: 200;
+        line-height: 1.5; }
+      .btn {
+     
+        border-radius: 100px;
+       
+     
+       }
+
+       
+.img-fluid {
+    margin: 20px;                   
+    max-width: 80%;
+    height: auto;
+  }
+ 
+.site-list {
+    padding: 0;
+    margin: 0; }
+    .site-list li {
+      margin: 0 0 10px 0;
+      padding: 0;
+      position: relative;
+      list-style: none; }
+      .site-list li:before {
+        font-family: 'icomoon';
+        position: absolute;
+        top: .1em;
+        left: 0; }
+      .site-list li.site-check {
+        padding-left: 30px; }
+        .site-list li.site-check:before {
+          color: #f00000;
+          font-size: 16px;
+          content: "\ebd3"; }
+  
+    /*   start     section price table   */
+    .price-table
+    {
+        width:100%;
+        background:#eee;
+      padding-top:20px;
+      padding-bottom:40px;
+  
+    }
+
+    /*  خاص بلعنوان */
+.price-table h1{
+    margin-bottom:40px;
+}
+/*  خاص بصندوق المحتوى */
+.price-table .price-box{
+   
+    
+    background: rgb(255, 255, 255);
+border-radius:0px  90px  90px 90px ;
+  color:rgb(0, 0, 0);
+  padding:10px;
+  border:3px solid rgb(255, 0, 0);
+  margin-bottom:15px;
+}
+
+.price-table .price-box .tex{
+    font-size:20px;
+}
+.price-table .price-box h2{
+    margin:5px 0 15px;
+}
+
+.price-table .price-box p{
+ 
+    line-height:100px;
+}
+.price-table .price-box p img{
+     width:230px;
+}
+.price-table .price-box ul{
+    line-height:250%;
+    font-size:18px;
+}
+.price-table .price-box a{
+    margin-bottom:5px;
+}
+
+    /*   end     section price table      */
+
+ 
+                
+/*  خاص بصندوق المحتوى */
+.parback .price-box1{
+   
+    
+   
+   
+border-radius:90px  90px 90px 90px;
+  color:rgb(0, 0, 0);
+  padding:10px;
+  border:3px solid rgb(0, 0, 0);
+  margin-bottom:15px;
+}
+
+.parback .price-box1 .tex{
+    font-size:20px;
+}
+.parback .price-box1 h2{
+    margin:5px 0 15px;
+}
+
+.parback .price-box1 p{
+ 
+    line-height:100px;
+}
+.parback .price-box1 p img{
+     width:330px;
+}
+.parback .price-box1 ul{
+    line-height:250%;
+    font-size:18px;
+}
+.parback.price-box1 a{
+    margin-bottom:5px;
+}
+
+
+
+/*  start  logec1 */
+.logec1 {
+    margin-top:20px;
+    width:100%;
+height: 800px; 
+font-size:20px; 
+}
+.logec1 .a img {
+  
+    width:100%;
+    height: 800px; 
+    border-radius: 250px 250px  0 0;
+    border: 6px solid #000
+}
+
+
+
+.logec1 .aa  a input[type="button"]{
+background:rgb(247, 111, 0);
+width:150px;
+height: 50px;
+color:#000;
+border-radius: 50px;
+}
+  /*  end  logec1 */

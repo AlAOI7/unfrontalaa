@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/33.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 70px 30px;
+}
+.docc{
+
+    margin-top: 30px;
+    width: 50%;
+    height: 500px;
+    background: rgba(121, 105, 105, 0.5);
+    color: rgb(63, 0, 0);
+    top: 50%;
+font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+
+    box-sizing: border-box;
+    margin-bottom: 20px;
+ 
+}
+
+.serr{
+    margin-top: 30px;
+    height: 500px;
+    width: 50%;
+    background: rgba(121, 105, 105, 0.5);
+    color: rgb(63, 0, 0);
+    top: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+
+    box-sizing: border-box;
+
+}
+
+
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+ input[type="username"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+ 
+    height: 40px;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+}
+
+ input[type="username"]:hover{
+    cursor:optional;
+    background: #000000;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+ input[type="password"]:hover{
+    cursor:optional;
+    background: #000000;
+    color: #fff;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 20px;
+}
+ input[type="submit"]:hover{
+    cursor:optional;
+    background: #97d9e2;
+    color: #000;
+
+}
+

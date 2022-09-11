@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+sana:ital,wght@0,600;1,600&display=swap');
+*{
+margin:0;
+padding:0;
+font-family: sans-serif;
+
+}
+
+body{
+/* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(ala.jpg); */
+background-position: center;
+background-size:cover;
+
+
+}
+.toptitle{
+text-align:center;
+}
+.ala {
+text-align:center;
+
+width: 500px;
+
+height: 2100px;
+margin:2% auto;
+color: #000;
+border-radius: 2px solid #000;
+position: relative;
+overflow:hidden
+}
+h3{
+text-align:center;
+margin-bottom: 40px;
+color: #777;
+
+}
+
+fieldset{
+border: medium none !important;
+margin: 0 0 10px;
+min-width: 90%;
+width: 60%;
+
+}
+
+input[type = "radio"]{
+width: 10% !important;
+
+}
+
+
+.radio{
+    margin: 10px;
+}
+::plachecholder{
+color: #777;
+}
+
+
+.al input{
+
+    border: 2px solid rgb(236, 22, 7);
+    background-color:rgb(255, 255, 255);
+    width: 400px;
+    color:#000 ;
+    height: 50px;
+    padding: 10px;
+    margin: 3px 0;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    }
+   
+    .btn-box.ri{
+float: right;
+
+width: 110px;
+
+    }
+    .btn-box.lf{
+        width: 110px;
+        float: left;
+
+    }
+   
+.al button{
+    width: 110px;
+    height: 50px;
+    margin: 20px 60px 0px 30px;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    border:0;
+
+    outline: none;
+    color:#fff;
+    cursor:pointer;
+    
+    }
+
+ .container .al {
+ 
+    
+    width: 380px;
+    
+    position: absolute;
+    padding: 1px;
+    top: 10px;
+    text-align: center;
+    right: 300px;
+    transition: 0.8s;
+    }
+
+.container form{
+
+width: 100%;
+height: 890px;
+position: absolute;
+top:20px;
+text-align:center;
+right: 20px;
+transition: 0.8s;
+}
+#Form1{
+    right: 15px;
+}
+#Form2{
+
+    right: 1000px;
+}
+#Form3{
+
+
+right:4900px;
+
+}
+#Form4{
+ 
+
+    right:4200px;
+}
+#Form5{
+    height: 850px;
+
+ right:1100px;
+
+    }
+
+.step-row{
+
+width: 430px;
+height: 40px;
+margin:0 auto;
+display: flex;
+align-items: center;
+box-shadow: 0 -1px 5px -1px #000;
+position: relative;
+
+}
+.step-col{
+width: 120px;
+text-align: center;
+color: #301;
+position: relative;
+}
+#progress{
+position: absolute;
+height: 100%;
+width: 50px;
+background: linear-gradient(to right,#cc105f,#ffed06);
+transition: 1s;
+}
+#progress::after{
+content:'';
+height: 0;
+width: 0;
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+position: absolute;
+right: -20px;
+top: 0;
+border-left: 20px solid #ffad06;
+}

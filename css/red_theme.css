@@ -1,0 +1,51 @@
+/* start defult theam */
+/*ننسخ الى هنه كل الكلاسات الذي تحتوي على لون موحد بلموقع  لكينستطيع تغير  الون المخصق*/
+  
+  .option-box .color-option ul li,
+    .option-box .fa-check,
+      .carousel-indicators .active,
+              .footer
+  {
+
+  background:#f0f;
+  
+  }
+  
+.about h1 span{
+    color:#f0f;
+}
+
+  .dropdown-menu{
+
+      border-top:3px solid #f0f;
+  }
+   .about .lead,
+      .features .feat span.glyphicon ,
+   
+   
+   {
+          color:#f0f;
+          }
+          
+
+                   
+        .testimonials span{
+        color:#f0f;}
+        
+        .subscribe h1{
+        color:#f0f;
+        }
+        .statistics .stats:hover{
+        color:#f0f;
+        }
+        
+
+        
+                   
+
+
+
+
+
+
+/*ebd defult theam */

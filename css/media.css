@@ -1,0 +1,54 @@
+
+
+/*start media query */
+
+/*from the mopile*/
+/*المقاس  لعرض الهواتف والتابليت  768px*/
+/*بلمعنا اي جاز يدخل الموقع من جاهز الmax-withs  حقه 768  طبقله ما داخل الاقواس */
+/*ابدا من 0 الى 768 طبق ما داخل الاقواس */
+@media(max-width:767px)
+{
+            .navbar-inverse .navbar-naV >li >a{
+       padding-top:10px;
+       padding-bottom:10px;  
+         }
+         .navbar{ 
+               width:435px;
+               higth:90px 
+           }
+          .subscribe  .form-control{
+       margin:20px auto;   
+          } 
+}
+
+
+/* هنه من 768 الى الاعلى طبق مداخل القوس يعني ابدا من شاشة الموبايل والتابلت طبق ما داخل الاقواس */
+/*@media(min-width:768px)
+{ h1{   color:#103; font-size:100px;}
+}*/
+
+
+/* ابدا من 768  الى 991  الشاشات التي حجمها بين هاذه الارقام طبق ما داخل الاقواس عليها */
+/* from small the mediam*/
+@media(min-width:768px) and (max-width:991px)
+{
+.navbar{ 
+      width:800px;
+      higth:40px 
+  }
+
+}
+
+/* media screan */
+@media(min-width:992px) and (max-width:1199px)
+{
+
+}
+
+/*large screan*/
+@media(min-width:1200px)
+{
+
+}
+
+/*end media query */
